@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html interview question</title>
+</head>
+<body>
+    <h4> 1. Difference between div and span.</h4>
+    <p> Both tags are used in webpage.The <section> tag creates independent sections within a webpage having logically connected content.
+         And the <div> tag is an empty container specifying a division or a section. </p>
+            <h4>2. Difference between class and IDs.</h4>
+            <p>A Class name can be used by multiple HTML elements, while an ID name must only be used by one HTML element within the page.</p>
+            <h4>3.What are self closing tag?</h4>
+            <p> that tag called closing tag whose don't have their own content. e.g.,</br> </p>
+            <h4>4.How many types of headings arec there? How to decide which to use where?</h4>
+            <p>There are six types of headings in HTML. And these are: H1,H2,H3,H4,H5,H6.
+                We can use these headings in different manner like:
+                <h1>welcome</h1>
+                <h2>welcome</h2>
+                <h3>welcome</h3>
+                <h4>welcome </h4>
+                <h5>welcome</h5>
+                <h6>welcome</h6>
+            </p>
+            <h4>5.Difference between block and inline?</h4>
+            <p>Block: A block-level element always starts on a new line, and the browsers automatically add some space before and after the element.
+                Inline: An inline element does not start on a new line.
+                An inline element only takes up as much width as necessary.
+            </p>
+            <h4>6.Difference between em and strong ?</h4>
+            <p> <em> means stressed emphasis and 
+                <strong> means strong importance</p>
+            <h4>7.What are attributes?</h4>
+            <ul>
+                <li>HTML attributes provide additional information  about elements.</li>
+                <li>Each element can have attributes, which define its behaviour.</li>
+                <li>The attribute should always be applied with its name and value pair.</li>
+                <li>Attributes should always applied with start tag.</li>
+            </ul>
+            <p>Syntax: <element attribute_name="value">content</element> </element></p>
+            <hr>
+            <h4>8.Difference between HTML tags and elements</h4>
+            <p> Html tags have their starting and closing tag.e.g.,<b></b> 
+               Html elements enclose the contents in between tags.It consists of a start tag,content,endt tag.
+               e.g., <b> this is content </b>            
+            </p>
+            <h4>9. Explain br tag.</h4>
+            <p> <br>tag used for the break the line</p>
+            <h4>Explain how many different types of lists we have in html.</h4>
+            <p>There are two types of lists:
+                1.Ordered lists
+                2.Unordered list 
+            </p>
+            <h4>10.What are semantic tags?</h4>
+            <p> Semantic tags describe its maaning to both the browser and developer.
+                e.g., <form>,<table>,<article>
+            </p>
+            <h4>11.Write code to create an ordered lists with roman numbers.</h4>
+            <p>For creating ordered list , we use <ol>tag . Inside <ol> tag we use <li> tag for listing the contents.</p>
+                <ol type="i">
+                    <li>HTML</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>MERN</li>
+                </ol>
+                <h4>12.Write code to create unordered list with circle.</h4>
+                <p>For creating unordered listv, we use <ul> tag and inside this tag we use <li> tag for lists.</p>
+                    <ul type="circle">
+                        <li>HTML</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>MERN</li>
+                    </ul>
+                <h4>13.Write code to create a link to https://wwww.prepbytes.com</h4>
+                 <a href="https://prepbytes.com" target="_blank">Prepbytes.com</a> 
+
+                <h4>14.Write code to insert an image.</h4>
+                 <p> For inserting image we use <img src=""alt="" width=""height=""> . </p>
+                  <img src="a.jpg" alt="img" width="300" height="300">
+
+                <h4>15.Create a form contain input fields like name,age, email, and contact.</h4>
+                <form>
+                    <label ="fullname">Name</label>
+                    <input type="text" placeholder="Name" name="fullname" id="fullname">
+                    <br>
+                    <label>E-mail</label>
+                    <input type="email" placeholder="Email" id="email">
+                    <br>
+                    <label>Age</label>
+                     <input type="number" placeholder="age">
+                     <br>
+                     <label for="Contact Number"> Contact number </label>
+                     <input type="number">
+                </form>
+
+                <h4>16.Create a table and explain how to achieve colspan.</h4>
+                 <p> For creating table we use <table> tag and inside this tag we used rowspan for merge the rows and colspan for merge the column.</table></p>
+                 <table border="1" align="center">
+                    <tr>
+                        <th> Name</th>
+                        <th>Expense</th>
+                    </tr>
+                    <tr>
+                       <td>Priya </td> 
+                     <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>Ashu</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>  
+                    <td colspan="2">Sum: 2000</td>    
+                    </tr>
+                 </table>               
+        </body>
+</html>
